@@ -152,6 +152,7 @@ function autoFillGoogleDocFromForm(e) {
 
 
 ## References :
-- [AutoFillText to Word()](https://www.labnol.org/code/20078-insert-image-in-google-document)
+- [AutoFillText to Word](https://jeffreyeverhart.com/2018/09/17/auto-fill-google-doc-from-google-form-submission/)
+- [Insert Inline Image()](https://www.labnol.org/code/20078-insert-image-in-google-document)
 - [Replace text to image()](https://gist.github.com/tanaikech/f84831455dea5c394e48caaee0058b26)
 
