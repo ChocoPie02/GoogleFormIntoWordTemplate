@@ -74,11 +74,11 @@ function autoFillGoogleDocFromForm(e) {
   var divisi = divisi_GA+divisi_finance+divisi_operasional+divisi_warehouse
   
   //file is the template file, and you get it by ID
-  var file = DriveApp.getFileById('1D9IqR8qu0oWV-O0nfltP63m9H3EMoI5170SI8RcOCb4'); 
+  var file = DriveApp.getFileById('1D9IqR8qu0oWV-O0nfltP63m9H3EMoI5170SI8RcOCb46'); 
   
   //We can make a copy of the template, name it, and optionally tell it what folder to live in
   //file.makeCopy will return a Google Drive file object
-  var folder = DriveApp.getFolderById('1c8CXfufIU7mUBRlSxhNZA8XtM6ic0FAq')
+  var folder = DriveApp.getFolderById('1c8CXfufIU7mUBRlSxhNZA8XtM6ic0FA0q')
   var copy = file.makeCopy('Daily Report '+departemen+ ' / ' +divisi+' ~ Tgl '+ date, folder); 
   
   //Once we've got the new file created, we need to open it as a document by using its ID
